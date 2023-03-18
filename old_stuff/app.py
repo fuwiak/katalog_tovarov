@@ -27,4 +27,4 @@ def add_patterns_from_json(nlp, json_file):
         ner.add_label(entity["label"])
     return nlp
 
-nlp = add_patterns_from_json(nlp, "data/patterns.json")
+nlp = add_patterns_from_json(nlp, "../data/patterns.json")

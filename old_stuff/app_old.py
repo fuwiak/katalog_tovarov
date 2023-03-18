@@ -23,7 +23,7 @@ def show_table_grid(data):
     )
     return grid_response
 
-path ='data/data.xlsx'
+path = '../data/data.xlsx'
 df = pd.read_excel(path, skiprows=1) #чтение данных
 
 

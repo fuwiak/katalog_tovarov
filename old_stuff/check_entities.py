@@ -19,7 +19,7 @@ text = "Я купил 1 кг сахара и 500 грамм соли молок�
 
 new_entity = "QUANTITY"
 
-with open("entities.json") as f:
+with open("../entities.json") as f:
     data = json.load(f)
 
 for entity in data["entities"]:
