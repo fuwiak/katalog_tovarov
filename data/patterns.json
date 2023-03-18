@@ -1,0 +1,31 @@
+{
+    "entities": [
+        {
+            "label": "QUANTITY",
+            "patterns": [
+                [{"LOWER": "грамм"}, {"IS_SPACE": True}, {"LIKE_NUM": True}],
+                [{"LOWER": "г"}, {"IS_SPACE": True}, {"LIKE_NUM": True}],
+                [{"LOWER": "кг"}, {"IS_SPACE": True}, {"LIKE_NUM": True}],
+                [{"LOWER": "килограмм"}, {"IS_SPACE": True}, {"LIKE_NUM": True}]
+            ]
+        },
+        {
+            "label": "PRODUCT",
+            "patterns": [
+                [{"LOWER": "молока"}],
+                [{"LOWER": "сахар"}],
+                [{"LOWER": "соль"}],
+                [{"LOWER": "яйцо"}]
+            ]
+        },
+        {
+            "label": "MATERIAL",
+            "patterns": [
+                [{"LOWER": "стекло"}],
+                [{"LOWER": "пластик"}],
+                [{"LOWER": "дерево"}],
+                [{"LOWER": "металл"}]
+            ]
+        }
+    ]
+}

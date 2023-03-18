@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "label": "QUANTITY",
+            "patterns": [
+                [
+                    {
+                        "LIKE_NUM": true
+
+                    },
+                    {
+                        "LOWER": "грамм"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "г"
+                    },
+                    {
+                        "LIKE_NUM": true
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "кг"
+                    },
+                    {
+                        "IS_SPACE": true
+                    },
+                    {
+                        "LIKE_NUM": true
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "килограмм"
+                    },
+                    {
+                        "IS_SPACE": true
+                    },
+                    {
+                        "LIKE_NUM": true
+                    }
+                ]
+            ]
+        },
+        {
+            "label": "PRODUCT",
+            "patterns": [
+                [
+                    {
+                        "LOWER": "молока"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "сахар"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "соль"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "яйцо"
+                    }
+                ]
+            ]
+        },
+        {
+            "label": "MATERIAL",
+            "patterns": [
+                [
+                    {
+                        "LOWER": "стекло"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "пластик"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "дерево"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "металл"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "бумага"
+                    }
+                ],
+                [
+                    {
+                        "LOWER": "металлическая"
+                    },
+                    {
+                        "OP": "?"
+                    }
+                ]
+
+
+            ]
+        }
+    ]
+}
