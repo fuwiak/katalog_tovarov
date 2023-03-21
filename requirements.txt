@@ -30,7 +30,6 @@ confection==0.0.3
 contourpy==1.0.7
 cycler==0.11.0
 cymem==2.0.7
-Cython==3.0.0b1
 dash==2.8.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
@@ -142,13 +141,11 @@ pickleshare==0.7.5
 Pillow==9.4.0
 platformdirs==3.0.0
 plotly==5.13.1
-plotly-resampler==0.8.4rc1
 pmdarima==2.0.2
 preshed==3.0.8
 prettytable==3.6.0
 prometheus-client==0.16.0
 prompt-toolkit==3.0.37
-protobuf==3.20.3
 psutil==5.9.4
 ptyprocess==0.7.0
 pure-eval==0.2.2
