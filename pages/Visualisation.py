@@ -10,7 +10,7 @@ import streamlit as st
 import numpy as np
 from typing import List, Dict, Any, Union, Optional
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
-from streamlit_searchbox import st_searchbox
+#from streamlit_searchbox import st_searchbox
 from streamlit_extras.word_importances import format_word_importances
 
 
