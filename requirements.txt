@@ -164,10 +164,7 @@ pymorphy2==0.9.1
 pymorphy2-dicts-ru==2.4.417127.4579844
 Pympler==1.0.1
 pynput==1.7.6
-pyobjc-core==9.0.1
-pyobjc-framework-ApplicationServices==9.0.1
-pyobjc-framework-Cocoa==9.0.1
-pyobjc-framework-Quartz==9.0.1
+
 pyod==1.0.7
 pyparsing==3.0.9
 PyQt5==5.15.9
